@@ -1,0 +1,1 @@
+nohup python3 -u /home/ubuntu/linkage-agent-tools/validate.py | tee ./logs/validate.log &

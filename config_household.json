@@ -1,0 +1,22 @@
+{
+  "systems": [
+    "CSCC_garbled",
+    "DUKE_garbled"
+  ],
+  "projects": [
+    "fn-phone-addr-zip"
+  ],
+  "schema_folder": "/home/ubuntu/_TEST/Production-test-set-2022-10-26/schema",
+  "inbox_folder": "/home/ubuntu/_TEST/Production-test-set-2022-10-26/patients/zip",
+  "matching_results_folder": "/home/ubuntu/_TEST/Production-test-set-2022-10-26/output",
+  "project_results_folder": "/home/ubuntu/_TEST/Production-test-set-2022-10-26/project-output",
+  "output_folder": "/home/ubuntu/_TEST/Production-test-set-2022-10-26/test-output",
+  "entity_service_url": "http://localhost:8851/api/v1",
+  "matching_threshold": 0.75,
+  "household_threshold": 0.75,
+  "mongo_uri": "localhost:27017",
+  "blocked": false,
+  "blocking_schema": "/home/ubuntu/_TEST/Production-test-set-2022-10-26/schema/blocking-schema/lambda.json",
+  "household_match": true,
+  "household_schema": "/home/ubuntu/_TEST/Production-test-set-2022-10-26/schema/household-schema/fn-phone-addr-zip.json"
+}

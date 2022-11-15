@@ -1,0 +1,1 @@
+nohup python3 -u /home/ubuntu/linkage-agent-tools/data_owner_ids.py | tee ./logs/data_owner_ids.log &

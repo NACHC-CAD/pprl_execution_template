@@ -1,0 +1,1 @@
+nohup python3 -u /home/ubuntu/linkage-agent-tools/dcctools/freqs_of_matching_projs.py | tee ./logs/freq_of_matching_proj.log &

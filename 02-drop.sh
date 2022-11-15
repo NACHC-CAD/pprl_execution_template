@@ -1,0 +1,1 @@
+nohup python3 -u /home/ubuntu/linkage-agent-tools/drop.py | tee ./logs/drop.log &
